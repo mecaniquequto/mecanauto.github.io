@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mécanique des voitures</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Pont.css">
+</head>
+<body>
+	<h1><b><center>Le Pont</center></b></h1>
+	<h3><b>I. Définition :</b></h3>
+	<p>
+		Appelé aussi différentiel, il sert à transférer le mouvement issu de la boite de vitesses dans l’axe de rotation des roues motrice.
+		<br>En même temps il permet de «gérer » la différence de vitesse des roues motrices dans les virages (les roues extérieures faisant 
+		<br>plus de distance que celles intérieures).
+	</p>
+	<img src="photo1.png" id="pht1">
+
+	<h3><b>II. Composantes:</b></h3>
+	Le différentiel se compose: 
+	<li class="a1">D’un boitier « <b>3</b> » solidaire de la couronne du pont « <b>2</b> »</li>
+	<li class="a1">De deux planétaire « <b>6</b> » liés aux arbres de roues</li>
+	<li class="a1">D’un axe porte satellites « <b>4</b> »</li>
+	<li class="a1">De deux satellites « <b>5</b> » montés fous sur leur axe « <b>4</b> », en contact par leur denture avec les planétaire</li>
+	<img src="photo2.png" id="pht2">
+	<center>
+		<table class="tabl1">
+			<caption><h4>Tableau 5 : Les composants d’un pont</h4></caption>
+			<tr>
+				<td><b>1 Pignon d’attaque</b></td>
+				<td><b>4 Axe porte-satellites</b></td>
+			</tr>
+			<tr>
+				<td><b>2 Couronne</b></td>
+				<td><b>5 Satellites</b></td>
+			</tr>
+			<tr>
+				<td><b>3 Boîtier de différentiel</b></td>
+				<td><b>6 Planétaires</b></td>
+			</tr>
+		</table>
+	</center>
+	<br>
+	<h3><b>III. Le fonctionnement :</b></h3>
+	<p>
+		Le fonctionnement repose sur l’interaction des trois éléments suivants: 
+		<li class="a2"><u>l’élément moteur</u> <b>(le porte-satellites)</b>, solidaire de la couronne, il reçoit la puissance transmise par la BV</li>
+		<li class="a2"><u>l’élément de réaction</u> <b>(composé des 2 satellites)</b></li>
+		<li class="a2"><u>l’élément récepteur</u> <b>(constitué des 2 planétaires)</b>, répartit la puissance sur chaque arbre de transmission</li>
+	</p>
+	<br>Soit les variables suivantes:
+	<p class="p1">
+		ω<sub>ps</sub> = vitesse du porte satellites = vitesse de la couronne = vitesse du boitier<br>
+		ω<sub>S</sub> = vitesse satellite<br>
+		ω<sub>P1</sub> = vitesse du planétaire 1 = vitesse de l’arbre de transmission gauche<br>
+		ω<sub>P2</sub> = vitesse du planétaire 2 = vitesse de l’arbre de transmission droite
+    </p>
+    <img src="photo3.png" id="pht3">
+    <br><br>
+    <p>
+    	-<b>En ligne droite</b> : La couronne entraîne le <b>boîtier</b> de différentiel qui entraîne à son tour les <b>satellites</b> par leur axe .Les satellites 
+    	<br>étant engrainés dans les <b>planétaires</b>, ils tournent et entraînent les <b>arbres</b> de transmission donc les roues.
+    </p>
+    <img src="photo4.png" id="pht4">
+    <p class="p2">
+    	-Les roues parcourent la même distance : <mark><b>A = B</b></mark><br><br>
+    	-Les planétaires tournent à la même vitesse :
+    	<b>ω<sub>P2</sub> = ω<sub>P1</sub> = ω<sub>PS</sub></b>
+    </p>
+    <p>
+    	-<b>En virage</b> : les roues ne tournent pas à la même vitesse. Le boîtier entraîne toujours les satellites, mais ceux-ci <b>tournent sur leur axe</b> et donc sur <b>les
+        <br>planétaires</b>, permettant <b>d’isoler</b> les planétaires et donc les roues.
+    </p>
+    <img src="photo5.png" id="pht5">
+    <p class="p3">
+    	-La roue <b>extérieure</b> au virage doit parcourir une distance <b>supérieure</b> à la roue <b>intérieure</b> <mark><b>A >B</b></mark><br><br>
+    	-Les planétaires tournent à des vitesses différentes : <b>ω<sub>P1</sub> = ω<sub>PS</sub> - ω<sub>S</sub></b>
+    </p>
+</body>
+</html>

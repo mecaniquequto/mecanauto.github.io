@@ -1,0 +1,55 @@
+div.class1{
+	border: medium solid red;
+	margin: 25px 50px 75px 10px;
+	padding: 50px 30px 50px 50px;
+	font-size: 20px;
+}
+
+body{
+	background-color: #E0FFFF
+}
+
+.gn{
+    list-style: upper-roman;
+}
+.et{
+	list-style: decimal;
+}
+.In{
+	list-style: decimal;
+}
+.bv{
+	list-style: upper-roman;
+}
+.em{
+	list-style: upper-roman;
+}
+.pd{
+	list-style: upper-roman;
+}
+.at{
+	list-style: upper-roman;
+}
+#en-tête{
+	color: 	#FF8C00;
+	position: static;
+	font-size: 50px;
+
+}
+
+#pic{
+	height: 300px;
+	width: 400px;
+	position: absolute;
+	right: 100px;
+}
+#pik{
+	height: 300px;
+	width: 400px;
+	position: absolute;
+    bottom: -100px;
+	right: 100px;
+}
+.li1{
+	color: #16439F;
+}
